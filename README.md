@@ -1,5 +1,4 @@
-# TaqAdress-19
- Projeto de raspagem de dados, banco de dados, automatização de envio de e-mails e envio de SMS.
+# Projeto de raspagem de dados, banco de dados, automatização de envio de e-mails e envio de SMS.
 
 O programa TaqAdress-19 foi desenvolvido por mim com o objetivo de trazer aos moradores da cidade de Taquarituba-SP, informações verídicas coletadas diretamente do site da prefeitura da cidade, sobre os casos de Corona-Vírus.
 O script é capaz de coletar os dados em tempo real da página da prefeitura da cidade de Taquarituba onde estão presente os dados de infectados, curados, hospitalizados, óbitos, em isolamento, etc... a respeito da Covid-19.
