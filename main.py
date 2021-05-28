@@ -6,9 +6,11 @@ import win32com.client as win32
 from twilio.rest import Client
 
 def main():
+    # Open Google Chrome
     driver = webdriver.Chrome()
     driver.get(url="https://www.taquarituba.sp.gov.br/covid")
 
+    # Send e-mails
     emails_do_banco = coletaEmails()
     for endereco in emails_do_banco:
         outlook = win32.Dispatch('outlook.application')
@@ -29,8 +31,10 @@ def main():
         """
         email.Send()
 
+    # Close Chrome
     driver.close()
-
+    
+    # Send MSM in my phone number
     account_sid = "myaccountnumber"
     auth_token  = "mytokennumber"
     client = Client(account_sid, auth_token)
