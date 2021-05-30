@@ -6,3 +6,4 @@ Ele monta um e-mail pelo Microsoft Outlook para enviar uma mensagem formatada a 
 No final do processo, através da plataforma Twilio importada na aplicação, ele enviará a mim um SMS avisando que todos os e-mails foram enviados e o código se encerrou.
 
 [Clique aqui para assistir a explicação do projeto no YouTube!](https://youtu.be/EyO4vS9uuJM)
+![maxresdefault](https://user-images.githubusercontent.com/84553686/120118820-f3729900-c16a-11eb-9e25-ba649e1a6f30.jpg)
