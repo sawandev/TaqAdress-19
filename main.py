@@ -19,13 +19,13 @@ def main():
         email.Subject = "COVID-19 EM TAQUARITUBA"
         email.HTMLBody = f"""
         <h1>LISTA COM OS DADOS DO CORONA VÍRUS EM TAQUARITUBA-SP</h1>
-        <p><strong>SUSPEITOS:</strong> {suspeitos(driver)} pessoas.</p>
-        <p><strong>CONFIRMADOS:</strong> {confirmados(driver)} pessoas.</p>
-        <p><strong>DESCARTADOS:</strong> {descartados(driver)} pessoas.</p>
-        <p><strong>CURADOS:</strong> {curados(driver)} pessoas.</p>
-        <p><strong>HOSPITALIZADOS:</strong> {hospitalizados(driver)} pessoas.</p>
-        <p><strong>MORTES:</strong> {obitos(driver)} pessoas.</p>
-        <p><strong>EM ISOLAMENTO:</strong> {em_isolamento(driver)} pessoas.</p>
+        <p><b>SUSPEITOS:</b> {suspeitos(driver)} pessoas.</p>
+        <p><b>CONFIRMADOS:</b> {confirmados(driver)} pessoas.</p>
+        <p><b>DESCARTADOS:</b> {descartados(driver)} pessoas.</p>
+        <p><b>CURADOS:</b> {curados(driver)} pessoas.</p>
+        <p><b>HOSPITALIZADOS:</b> {hospitalizados(driver)} pessoas.</p>
+        <p><b>MORTES:</b> {obitos(driver)} pessoas.</p>
+        <p><b>EM ISOLAMENTO:</b> {em_isolamento(driver)} pessoas.</p>
         <br></br>
         {data(driver)}
         """
