@@ -2,7 +2,7 @@ import mysql.connector
 
 
 def coletaEmails():
-    conexao = mysql.connector.connect(database='mydatabase',
+    conexao = mysql.connector.connect(database='',
                                   host='localhost',
                                   password='',
                                   user='root')
