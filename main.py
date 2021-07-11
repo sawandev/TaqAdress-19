@@ -50,6 +50,7 @@ def main():
 
         # Counter (strong red text \033[1;31)
         print(f'\033[1;31mEnviando os dados para o {cont}º e-mail...\033[m')
+        del emails_do_banco(0)
         cont -= 1
     
     # Send MSM in my phone number
